@@ -22,3 +22,7 @@ Esto lo vamos a lograr accediendo a la sección de Repositorios, luego a Bibliot
 ![Esquematicos1](recursos/archivos/Esquematicos1.png)
 
 Al entrar a la página de esquemáticos, nos encontraremos con la barra lateral a la izquierda, que nos permitirá cumplir con todas las funciones presentadas en la imagen.
+
+![Esquematicos2](recursos/archivos/Esquematicos2.png)
+
+Lo recomendado dentro de nuestros proyectos es que, por nuestro poco conocimiento en soldadura y en componentes pequeños (que son los que normalmente se necesitan para las PCB), usemos un tamaño de 1206 en los componentes. Esto nos ayuda porque, dentro de los recursos ya instalados en el FabLib, podemos simplemente buscar "1206" y nos aparecerán los componentes de la biblioteca con ese tamaño.
