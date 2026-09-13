@@ -7,3 +7,12 @@ KiCad es un programa gratuito y de código abierto que se usa para diseñar comp
 ![KiCadStart](recursos/archivos/KiCadStart.png)
 
 La imagen anterior muestra la página principal de KiCad, la cual cuenta con 4 secciones importantes: Proyectos Recientes, Editor de Esquemáticos, Editor de Placas y Herramientas. Estas son las 4 secciones principales que se van a utilizar.
+
+## Herramientas
+![Herramientas1](recursos/archivos/Herramientas1.png)
+
+La sección de Herramientas nos permite, mediante el Administrador de Complementos y Contenido, añadir más opciones de componentes a nuestros diseños esquemáticos. Esto nos da acceso a un catálogo amplio y variado de recursos, útiles para nuestros proyectos.
+
+![Herramientas2](recursos/archivos/Herramientas2.png)
+
+Esto lo vamos a lograr accediendo a la sección de Repositorios, luego a Bibliotecas, donde debemos buscar la biblioteca "KiCad FabLib". La instalamos entrando a ese repositorio, dando clic en donde diga "Instalar", y luego en "Aplicar Cambios Pendientes". Después solo debemos reiniciar la aplicación y los nuevos recursos ya se verán añadidos en la sección de esquemáticos.
