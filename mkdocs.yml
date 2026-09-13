@@ -1,6 +1,7 @@
 site_name: Documentación de curso
-site_description: Curso interactivo y moderno
-site_author: Tu Nombre
+site_url: https://emilymzs.github.io/Produccion-Electronica/
+site_description: Curso de produccion electronica
+site_author: Emily n Pedro
 
 theme:
   name: material
@@ -71,3 +72,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+
+extra_css:
+  - https://use.fontawesome.com/releases/v6.5.2/css/all.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
