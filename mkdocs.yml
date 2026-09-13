@@ -1,4 +1,46 @@
 site_name: Documentación de curso
+site_description: Curso interactivo y moderno
+site_author: Tu Nombre
+
+theme:
+  name: material
+  language: es
+  palette:
+    # Modo Claro automático
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Modo Oscuro automático
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - toc.integrate
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -6,7 +48,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.critic:
       mode: view
   - pymdownx.caret
@@ -17,24 +63,11 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - admonition
   - pymdownx.details
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
-# Use the ReadTheDocs theme
-theme:
-  name: material
-  highlightjs: true 
-  palette:
-      - scheme: default
-        primary: brown
-
-  features:
-    - content.code.copy
-    - content.tooltips
-extra_css:
-  - https://use.fontawesome.com/releases/v6.5.2/css/all.css
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
-
