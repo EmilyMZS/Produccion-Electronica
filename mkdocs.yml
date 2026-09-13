@@ -1,6 +1,6 @@
 site_name: Documentación de curso
 site_url: https://emilymzs.github.io/Produccion-Electronica/
-site_description: Curso de produccion electronica
+site_description: Curso produccion electronica
 site_author: Emily n Pedro
 
 theme:
@@ -41,6 +41,16 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+
+# Configuración explícita de la navegación basada en tus archivos reales
+nav:
+  - Inicio: inicio.md
+  - Comandos y Guías: comandos.md
+  - Primer Semestre:
+      - Actuadores Introducción: Primer Semestre/Actuadores Introducción.md
+      - ESP Introducción: Primer Semestre/ESP Introducción.md
+      - Proyecto Balancin: Primer Semestre/Proyecto Balancin.md
+      - Proyecto Carritos: Primer Semestre/Proyecto Carritos.md
 
 markdown_extensions:
   - pymdownx.highlight:
