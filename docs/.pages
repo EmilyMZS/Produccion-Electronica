@@ -1,3 +1,2 @@
-nav:
-  - ...
-  - - index.md: false
+hide:
+  - index.md
