@@ -49,7 +49,6 @@ plugins:
 nav:
   - Introduccion: Introduccion.md
   - KiCad: KiCad.md
-  - Primer Semestre: Primer Semestre/
 
 markdown_extensions:
   - pymdownx.highlight:
