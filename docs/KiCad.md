@@ -44,3 +44,8 @@ La imagen anterior muestra cómo se ve la página principal del editor de placas
 ![PlacasConf2](recursos/archivos/PlacasConf2.png)
 
 En la esquina superior izquierda, se va a ver un menú que va a decir "Pista: usar el ancho de clase de red". Al abrir ese menú, se puede desplegar para modificar las configuraciones que la placa debe tener, las cuales son: mínimo 0.4 mm de pista, 0.4 mm mínimo de margen, y 0.8 mm mínimo de taladro. Estos son los únicos valores que se deben modificar en los menús de configuración.
+
+![Capas1](recursos/archivos/Capas1.png)
+![Capas2](recursos/archivos/Capas2.png)
+
+Lo primero importante de mencionar es la importancia de las capas. Por cada capa, se deben hacer distintas cosas: en la capa de Edge Cuts deberían ir los contornos, en F.Cu las pistas, etc. Esto es así para que, cuando se deba mandar a cortar la placa, se haga distinción entre los diferentes tipos de corte.
