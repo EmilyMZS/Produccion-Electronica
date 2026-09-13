@@ -18,8 +18,8 @@ theme:
     # Modo Oscuro automático
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/brightness-4
         name: Cambiar a modo claro
