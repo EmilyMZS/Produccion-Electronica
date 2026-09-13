@@ -22,7 +22,7 @@ theme:
       accent: blue grey
       toggle:
         icon: material/brightness-4
-        name: Cambiar a modo claro
+        name: Cambiar a modo demonio
 
   features:
     - navigation.tabs
