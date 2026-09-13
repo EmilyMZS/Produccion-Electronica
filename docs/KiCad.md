@@ -26,3 +26,7 @@ Al entrar a la página de esquemáticos, nos encontraremos con la barra lateral 
 ![Esquematicos2](recursos/archivos/Esquematicos2.png)
 
 Lo recomendado dentro de nuestros proyectos es que, por nuestro poco conocimiento en soldadura y en componentes pequeños (que son los que normalmente se necesitan para las PCB), usemos un tamaño de 1206 en los componentes. Esto nos ayuda porque, dentro de los recursos ya instalados en el FabLib, podemos simplemente buscar "1206" y nos aparecerán los componentes de la biblioteca con ese tamaño.
+
+![Esquematicos3](recursos/archivos/Esquematicos3.png)
+
+Al final, debe quedar un resultado similar al presentado anteriormente, en donde todo esté conectado en el esquemático ideal, los componentes estén etiquetados, los pines de entrada y salida estén establecidos, y los voltajes y tierras definidos.
