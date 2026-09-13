@@ -16,3 +16,9 @@ La sección de Herramientas nos permite, mediante el Administrador de Complement
 ![Herramientas2](recursos/archivos/Herramientas2.png)
 
 Esto lo vamos a lograr accediendo a la sección de Repositorios, luego a Bibliotecas, donde debemos buscar la biblioteca "KiCad FabLib". La instalamos entrando a ese repositorio, dando clic en donde diga "Instalar", y luego en "Aplicar Cambios Pendientes". Después solo debemos reiniciar la aplicación y los nuevos recursos ya se verán añadidos en la sección de esquemáticos.
+
+## Esquemáticos
+
+![Esquematicos1](recursos/archivos/Esquematicos1.png)
+
+Al entrar a la página de esquemáticos, nos encontraremos con la barra lateral a la izquierda, que nos permitirá cumplir con todas las funciones presentadas en la imagen.
