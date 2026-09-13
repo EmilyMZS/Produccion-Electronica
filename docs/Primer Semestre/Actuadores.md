@@ -116,7 +116,7 @@ El código completo con PWM queda así:
 
 ## Servomotor
 
-A diferencia del motor DC, el servomotor siempre debe tener un PWM, y funciona con ángulos, generando movimientos más controlados y eficaces cuando se necesitan movimientos concretos.
+A diferencia del motor DC, los servomotores siempre debe tener un PWM, y funciona con ángulos, generando movimientos más controlados y eficaces cuando se necesitan movimientos concretos.
 
 
 <img width="434" height="578" alt="servomotorpwmuno" src="https://github.com/user-attachments/assets/d4919eca-11b5-41ce-bbc3-f943b678f22f" />
