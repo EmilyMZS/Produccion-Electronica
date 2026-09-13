@@ -53,3 +53,14 @@ Lo primero importante de mencionar es la importancia de las capas. Por cada capa
 ![Placas1](recursos/archivos/Placas1.png)
 
 Después, dentro de la capa de F.Cu, se hacen las pistas ya con las configuraciones previamente hechas. La ventaja de esta aplicación es que, al seleccionar un componente desde cualquiera de sus lados, se va a marcar el camino hacia los elementos con la misma conexión, mostrando cómo las pistas se deben conectar unas con otras.
+
+Del lado izquierdo, se debe cambiar la configuración para que diga "mm" (milímetros), y del lado derecho va a haber un ícono para la selección de pistas.
+
+![Contornos1](recursos/archivos/Contornos1.png)
+
+En Edge Cuts se le da la forma que se desee a la placa; en User 1 se colocan las etiquetas de los componentes, y en User 2 se ponen los agujeros necesarios para entradas y salidas. Las demás capas User también se pueden utilizar para algún otro agujero o cualquier otra cosa que se requiera.
+
+IMPORTANTE:
+- Contornos: 2 mm
+- Pistas: 0.4 - 0.6 mm
+- Etiquetas: 0.4 - 0.6 mm
