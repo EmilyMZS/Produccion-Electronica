@@ -67,3 +67,9 @@ IMPORTANTE:
 - Pistas: 0.4 - 0.6 mm
   
 - Etiquetas: 0.4 - 0.6 mm
+
+![Exportar](recursos/archivos/Exportar.png)
+![Exportar1](recursos/archivos/Exportar1.png)
+![Exportar2](recursos/archivos/Exportar2.png)
+
+Finalmente, cuando ya estén todos los componentes necesarios y todas las capas finalizadas, para exportar los documentos se debe localizar el menú de Archivo a la izquierda, y ahí buscar Fabricación y luego Gerbers. Al entrar a ese nuevo menú, se hacen varias modificaciones: primero, en el menú de arriba se cambia de "Gerbers" a "SVG"; luego, se seleccionan las capas que se utilizaron para trazar; después, se corre un DRC para verificar que no haya ningún error, y si no hay ninguno, se le da clic en "Trazar" para generar los documentos SVG que luego se van a mandar a cortar.
