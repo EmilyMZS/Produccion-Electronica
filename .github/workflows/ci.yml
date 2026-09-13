@@ -4,13 +4,11 @@ on:
   push:
     branches: ["main"]
 
-# Configura los permisos para permitir la lectura del repositorio y la escritura en GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Permite un solo despliegue concurrente
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -30,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs
+          pip install -r requirements.txt
 
       - name: Build MkDocs site
         run: mkdocs build
@@ -45,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # <- Esto genera el enlace automático en la UI
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
