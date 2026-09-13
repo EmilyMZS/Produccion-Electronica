@@ -49,3 +49,7 @@ En la esquina superior izquierda, se va a ver un menú que va a decir "Pista: us
 ![Capas2](recursos/archivos/Capas2.png)
 
 Lo primero importante de mencionar es la importancia de las capas. Por cada capa, se deben hacer distintas cosas: en la capa de Edge Cuts deberían ir los contornos, en F.Cu las pistas, etc. Esto es así para que, cuando se deba mandar a cortar la placa, se haga distinción entre los diferentes tipos de corte.
+
+![Placas1](recursos/archivos/Placas1.png)
+
+Después, dentro de la capa de F.Cu, se hacen las pistas ya con las configuraciones previamente hechas. La ventaja de esta aplicación es que, al seleccionar un componente desde cualquiera de sus lados, se va a marcar el camino hacia los elementos con la misma conexión, mostrando cómo las pistas se deben conectar unas con otras.
