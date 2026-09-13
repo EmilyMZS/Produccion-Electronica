@@ -7,6 +7,7 @@ theme:
   name: material
   language: es
   palette:
+    # Modo Claro automático
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -14,6 +15,7 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
+    # Modo Oscuro automático
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
@@ -40,8 +42,7 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-# Nota: Hemos eliminado la sección 'nav' por completo para que sea automático.
-
+# Plugin para autodetectar carpetas y páginas nuevas automáticamente
 plugins:
   - search
   - awesome-pages
