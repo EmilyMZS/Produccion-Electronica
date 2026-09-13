@@ -19,6 +19,7 @@ Esto lo vamos a lograr accediendo a la sección de Repositorios, luego a Bibliot
 
 ## Esquemáticos
 
+![EsquematicosInicio](recursos/archivos/EsquematicosInicio.png)
 ![Esquematicos1](recursos/archivos/Esquematicos1.png)
 
 Al entrar a la página de esquemáticos, nos encontraremos con la barra lateral a la izquierda, que nos permitirá cumplir con todas las funciones presentadas en la imagen.
