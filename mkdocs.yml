@@ -6,7 +6,7 @@ site_author: Emily n Pedro
 theme:
   name: material
   language: es
-  homepage: inicio.md
+  homepage: Inicio.md
   palette:
     # Modo Claro automático
     - media: "(prefers-color-scheme: light)"
