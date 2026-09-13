@@ -1,1 +1,1 @@
-![KiCad](recursos/archivos/3374914)
+![KiCad](recursos/archivos/3374914.png)
