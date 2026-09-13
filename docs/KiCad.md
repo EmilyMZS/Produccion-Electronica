@@ -61,6 +61,9 @@ Del lado izquierdo, se debe cambiar la configuración para que diga "mm" (milím
 En Edge Cuts se le da la forma que se desee a la placa; en User 1 se colocan las etiquetas de los componentes, y en User 2 se ponen los agujeros necesarios para entradas y salidas. Las demás capas User también se pueden utilizar para algún otro agujero o cualquier otra cosa que se requiera.
 
 IMPORTANTE:
+
 - Contornos: 2 mm
+  
 - Pistas: 0.4 - 0.6 mm
+  
 - Etiquetas: 0.4 - 0.6 mm
