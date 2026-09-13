@@ -14,7 +14,7 @@ theme:
       accent: blue grey
       toggle:
         icon: material/brightness-7
-        name: Cambiar a modo oscuro
+        name: Cambiar a modo normal
     # Modo Oscuro automático
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
