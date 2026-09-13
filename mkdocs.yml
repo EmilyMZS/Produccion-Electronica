@@ -7,7 +7,6 @@ theme:
   name: material
   language: es
   palette:
-    # Modo Claro automático
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -15,7 +14,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
-    # Modo Oscuro automático
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
@@ -42,15 +40,11 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-# Configuración explícita de la navegación basada en tus archivos reales
-nav:
-  - Inicio: inicio.md
-  - Comandos y Guías: comandos.md
-  - Primer Semestre:
-      - Actuadores Introducción: Primer Semestre/Actuadores Introducción.md
-      - ESP Introducción: Primer Semestre/ESP Introducción.md
-      - Proyecto Balancin: Primer Semestre/Proyecto Balancin.md
-      - Proyecto Carritos: Primer Semestre/Proyecto Carritos.md
+# Nota: Hemos eliminado la sección 'nav' por completo para que sea automático.
+
+plugins:
+  - search
+  - awesome-pages
 
 markdown_extensions:
   - pymdownx.highlight:
