@@ -49,6 +49,7 @@ plugins:
 nav:
   - Introduccion: Introduccion.md
   - KiCad: KiCad.md
+  - MODS: MODS.md
 
 markdown_extensions:
   - pymdownx.highlight:
