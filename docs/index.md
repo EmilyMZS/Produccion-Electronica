@@ -3,7 +3,7 @@
 <div class="grid cards" markdown>
 
 -   <center>
-    <img src="recursos/archivos/pedro.jpeg" width="160" style="border-radius: 50%; margin-top: 15px; object-fit: cover;" alt="Pedro Emmanuel">
+    <img src="recursos/archivos/pedro.jpeg" width="160" alt="Pedro Emmanuel">
     </center>
 
     ---
