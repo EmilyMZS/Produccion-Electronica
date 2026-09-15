@@ -1,1 +1,7 @@
-sjdlskajdlkasjdlkjsalkdjlksajdlkjaskldjaskljd
+![MODSinicio](recursos/archivos/MODSinicio.png)
+![MODSinsertar](recursos/archivos/MODSinsertar.png)
+![MODSinvertir](recursos/archivos/MODSinvertir.png)
+![MODSherramienta](recursos/archivos/MODSherramienta.png)
+![MODScalcular](recursos/archivos/MODScalcular.png)
+![MODSorigenes](recursos/archivos/MODSorigenes.png)
+![MODSsvg](recursos/archivos/MODSsvg.png)
