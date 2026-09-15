@@ -3,7 +3,7 @@
 <div class="grid cards" markdown>
 
 -   <center>
-    <img src="recursos/archivos/pedro.jpeg" width="200" alt="Pedro Emmanuel">
+    <img src="recursos/archivos/pedro.jpeg" width="300" alt="Pedro Emmanuel">
     </center>
 
     ---
