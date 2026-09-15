@@ -15,3 +15,19 @@
     * **Contacto:** [205389@iberopuebla.mx](mailto:205389@iberopuebla.mx)
 
 </div>
+
+<div class="grid cards" markdown>
+
+-   <center>
+    <img src="recursos/archivos/emily.jpeg" width="300" alt="Emily Mendez">
+    </center>
+
+    ---
+
+    ### **Emily Mendez Serna**
+
+    * **Carrera:** Ingeniería Mecatrónica (3.er Semestre)
+    * **Curso:** Producción Electrónica (Grupo B)
+    * **Contacto:** [203070@iberopuebla.mx](mailto:203070@iberopuebla.mx)
+
+</div>
