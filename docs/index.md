@@ -1,11 +1,17 @@
-# Miembros del equipo:
+# Miembros del equipo
 
-![Pedro](recursos/archivos/pedro.jpeg)
+<div class="grid cards" markdown>
 
-Nombre: Pedro Emmanuel Garcia Elvira
+-   <center>
+    <img src="recursos/archivos/pedro.jpeg" width="160" style="border-radius: 50%; margin-top: 15px; object-fit: cover;" alt="Pedro Emmanuel">
+    </center>
 
-Carrera: Ingenieria Mecatronica, Semestre 3
+    ---
 
-Curso: Produccion Electronica, Grupo B
+    ### **Pedro Emmanuel García Elvira**
 
-Contacto: 205389@iberopuebla.mx
+    * **Carrera:** Ingeniería Mecatrónica (3.er Semestre)
+    * **Curso:** Producción Electrónica (Grupo B)
+    * **Contacto:** [205389@iberopuebla.mx](mailto:205389@iberopuebla.mx)
+
+</div>
