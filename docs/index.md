@@ -1,5 +1,7 @@
 # Miembros del equipo:
 
+![Pedro](recursos/archivos/pedro.jpeg)
+
 Nombre: Pedro Emmanuel Garcia Elvira
 
 Carrera: Ingenieria Mecatronica, Semestre 3
