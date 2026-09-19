@@ -28,7 +28,7 @@ Al ingresar al editor de esquemáticos, dispondremos de una barra lateral en el 
 
 ![Esquematicos2](recursos/archivos/Esquematicos2.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Dentro de nuestros proyectos se recomienda utilizar componentes de tamaño 1206. Al haber instalado previamente la librería FabLib, bastará con buscar "1206" para localizar fácilmente los componentes compatibles con este tamaño. Asimismo, se debe verificar que cada componente incorporado en el esquemático cuente con su respectiva huella (blueprint).
+Dentro de la seccion para añadir componentes, nuestros proyectos se recomienda utilizar componentes de tamaño 1206. Al haber instalado previamente la librería FabLib, bastará con buscar "1206" para localizar fácilmente los componentes compatibles con este tamaño. Asimismo, se debe verificar que cada componente incorporado en el esquemático cuente con su respectiva huella (blueprint).
 
 ![Esquematicos3](recursos/archivos/Esquematicos3.png){ width="400" style="display: block; margin: 0 auto;" }
 
