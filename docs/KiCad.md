@@ -16,7 +16,7 @@ La sección de Herramientas nos permite ampliar las capacidades del software med
 
 ![Herramientas2](recursos/archivos/Herramientas2.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Para incorporar nuevas librerías, debemos acceder a la sección de Repositorios y luego a Bibliotecas, donde buscaremos específicamente la biblioteca "KiCad FabLib". Para instalarla, simplemente entramos a ese repositorio, hacemos clic en "Instalar" y posteriormente en "Aplicar Cambios Pendientes". Por último, es necesario reiniciar la aplicación para que los nuevos recursos aparezcan disponibles en la sección de esquemáticos.
+Para incorporar nuevas librerías, debemos acceder a la sección de Repositorios y luego a Bibliotecas, donde buscaremos específicamente la biblioteca "KiCad FabLib". Para instalarla, simplemente entramos a ese repositorio, hacemos clic en "Instalar" y despues en "Aplicar Cambios Pendientes". Por último, debemos reiniciar la aplicación para que los nuevos recursos aparezcan disponibles en la sección de esquemáticos.
 
 ## Editor de Esquemáticos
 
@@ -24,23 +24,25 @@ Para incorporar nuevas librerías, debemos acceder a la sección de Repositorios
 
 ![Esquematicos1](recursos/archivos/Esquematicos1.png){ width="300" style="display: block; margin: 0 auto;" }
 
-Al ingresar al editor de esquemáticos, dispondremos de una barra lateral en el costado izquierdo que concentra todas las funciones necesarias para estructurar nuestro circuito.
+Al ingresar al editor de esquemáticos, dispondremos de una barra lateral en el costado derecho que concentra todas las funciones necesarias para estructurar nuestro circuito.
 
 ![Esquematicos2](recursos/archivos/Esquematicos2.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Dentro de nuestros proyectos se recomienda utilizar componentes de tamaño 1206. Al haber instalado previamente la librería FabLib, bastará con buscar "1206" para localizar fácilmente los componentes compatibles con este tamaño. Asimismo, es indispensable verificar que cada componente incorporado en el esquemático cuente con su respectiva huella (blueprint).
+Dentro de nuestros proyectos se recomienda utilizar componentes de tamaño 1206. Al haber instalado previamente la librería FabLib, bastará con buscar "1206" para localizar fácilmente los componentes compatibles con este tamaño. Asimismo, se debe verificar que cada componente incorporado en el esquemático cuente con su respectiva huella (blueprint).
 
 ![Esquematicos3](recursos/archivos/Esquematicos3.png){ width="400" style="display: block; margin: 0 auto;" }
 
 ![Esquematicos4](recursos/archivos/Esquematicos4.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-Una vez finalizado el circuito, el resultado ideal debe mostrar todas las conexiones debidamente realizadas, los componentes etiquetados, los pines de entrada y salida definidos, así como las alimentaciones de voltaje y tierra claramente establecidas. Cuando el diseño esté listo, debemos hacer clic en el ícono de verificación (checklist) ubicado en la barra superior para ejecutar una prueba ERC (Electrical Rules Check), la cual detectará posibles errores en el esquemático. Los únicos avisos normales o esperados en esta prueba suelen ser aquellos que indican que las tierras y voltajes no están conectados a nada externamente. Una vez superado este paso, hacemos clic en el botón situado en el extremo derecho de la barra superior para pasar del esquemático al editor de placas.
+Una vez finalizado el circuito, el resultado ideal debe mostrar todas las conexiones debidamente realizadas, los componentes etiquetados, los pines de entrada y salida definidos, así como las alimentaciones de voltaje y tierra claramente establecidas. 
+
+Cuando el diseño esté listo, debemos hacer clic en el ícono de verificación (checklist) ubicado en la barra superior para ejecutar una prueba ERC (Electrical Rules Check), la cual detectará posibles errores en el esquemático. Los únicos avisos normales o esperados en esta prueba suelen ser los que indican que las tierras y voltajes no están conectados a nada externamente. Una vez finalizado, hacemos clic en el botón situado en el extremo derecho de la barra superior para pasar del esquemático al editor de placas.
 
 ## Editor de Placas
 
 ![PlacasInicio](recursos/archivos/PlacasInicio.png){ width="800" style="display: block; margin: 0 auto;" }
 
-La página principal del editor de placas muestra inicialmente todos los componentes agrupados en un mismo punto, los cuales debemos acomodar de forma ordenada según la distribución física que deseemos para nuestra placa. No obstante, antes de realizar las conexiones, es fundamental configurar las tolerancias y las medidas de las pistas.
+La página principal del editor de placas muestra inicialmente todos los componentes agrupados en un mismo punto, los cuales debemos acomodar de forma ordenada según como queremos que quede nuestra placa. Sin embargo, antes de realizar las conexiones, es fundamental configurar las tolerancias y las medidas de las pistas.
 
 ![PlacasConf](recursos/archivos/PlacasConf.png){ width="300" style="display: block; margin: 0 auto;" }
 
@@ -54,13 +56,13 @@ En la esquina superior izquierda, se va a ver un menú que va a decir "Pista: us
 
 ![Capas2](recursos/archivos/Capas2.png){ width="300" style="display: block; margin: 0 auto;" }
 
-Lo primero importante de mencionar es la importancia de las capas. Por cada capa, se deben hacer distintas cosas: en la capa de Edge Cuts deberían ir los contornos, en F.Cu las pistas, etc. Esto es así para que, cuando se deba mandar a cortar la placa, se haga distinción entre los diferentes tipos de corte.
+Es crucial mencionar la importancia de las capas. Por cada capa, se deben hacer distintas cosas: en la capa de Edge Cuts deberían ir los contornos, en F.Cu las pistas, etc. Esto es así para que, cuando se deba mandar a cortar la placa, se haga distinción entre los diferentes tipos de corte.
 
 ![Placas1](recursos/archivos/Placas1.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Dentro de la capa F.Cu, y utilizando las configuraciones de medidas previamente establecidas, procederemos a trazar las pistas. Una ventaja significativa de la herramienta es que al seleccionar un terminal de un componente, el sistema resalta automáticamente el trayecto hacia los demás elementos que comparten la misma conexión, guiándonos visualmente en el ruteo.
+Dentro de la capa F.Cu, y utilizando las configuraciones de medidas previamente establecidas, ya podemos trazar las pistas. Una ventaja significativa de la herramienta de pistas es que al seleccionar un componente, el sistema resalta automáticamente el trayecto hacia los demás elementos que comparten la misma conexión, guiándonos visualmente en el ruteo.
 
-Para trabajar con precisión, debemos asegurarnos de que la unidad de medida en el panel izquierdo esté configurada en milímetros (mm), mientras que la herramienta de selección de pistas se localiza en el panel derecho.
+Para trabajar con precisión, debemos asegurarnos de que la unidad de medida en el panel izquierdo esté configurada en milímetros (mm) en el panel izquierdo.
 
 ![Contornos1](recursos/archivos/Contornos1.png){ width="800" style="display: block; margin: 0 auto;" }
 
