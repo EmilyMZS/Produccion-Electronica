@@ -14,7 +14,7 @@ Es muy importante tener en cuenta que todo lo que aparezca de color negro en el 
 
 ![MODSherramienta](recursos/archivos/MODSherramienta.png){ width="250" style="display: block; margin: 0 auto;" }
 
-En el siguiente paso, se debe seleccionar la herramienta adecuada según el tipo de corte y la fresa que se vaya a utilizar.
+En el siguiente paso, se debe seleccionar la herramienta adecuada según el tipo de corte y la fresa que se vaya a utilizar. Tambien se debe de asegurar que las medidas esten en mm, no en in.
 
 ![MODScalcular](recursos/archivos/MODScalcular.png){ width="250" style="display: block; margin: 0 auto;" }
 
