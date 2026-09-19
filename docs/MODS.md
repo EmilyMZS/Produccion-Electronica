@@ -24,7 +24,7 @@ A continuación, en la parte superior se mostrará el tamaño de la fresa y de l
 
 La velocidad de trabajo de la cortadora es un parametro muy importante, asi no existe el riesgo de romper la punta por demasiada velocidad, especialmente en las perforaciones en la PCB.
 
-Para contorno, pistas y etiquetas (Fresas de 0.4 mm y 2 mm) la velocidad recomendada es 4 mm/s.
+Para contorno (Fresa de 2 mm), pistas y etiquetas (Fresas de 0.4 mm) la velocidad recomendada es 4 mm/s.
 
 Para perforaciones (Fresa de 0.8 mm) la velocidad recomendada es de 0.2 a 0.4 mm/s.
 
