@@ -1,20 +1,22 @@
-![MODSinicio](recursos/archivos/MODSinicio.png){ width="250" style="display: block; margin: 0 auto;" }
+![MODSinicio](recursos/archivos/MODSinicio.png){ width="800" style="display: block; margin: 0 auto;" }
 
-MODS CE (community edition) is a fork of CBA mods research project. mods is a modular cross platform tool for fablabs. It is based on independent but interrelated modules. mods could potentially be used for CAD, CAM, machine control, automation, building UI, read input devices, react to to physical models, and much more. The possibilies are endless.
-The goal of the community edition is to provide documentation, support and help the community engage in the project and foster the development/exchange of new modules.
+MODS CE es una bifurcación del proyecto de investigación de CBA mods. Mods es una herramienta modular multiplataforma para laboratorios de fabricación (fablabs). Está basada en módulos independientes pero interrelacionados. Mods podría utilizarse potencialmente para CAD, CAM, control de máquinas, automatización, creación de interfaces de usuario (UI), lectura de dispositivos de entrada, reacción a modelos físicos y mucho más. Las posibilidades son infinitas.
 
-![MODSinsertar](recursos/archivos/MODSinsertar.png){ width="250" style="display: block; margin: 0 auto;" }
+El objetivo de esta edición es proporcionar documentación, soporte y ayudar a la comunidad a involucrarse en el proyecto y fomentar el desarrollo/intercambio de nuevos módulos.
 
-![MODSinvertir](recursos/archivos/MODSinvertir.png){ width="250" style="display: block; margin: 0 auto;" }
+![MODSinsertar](recursos/archivos/MODSinsertar.png){ width="400" style="display: block; margin: 0 auto;" }
 
-Para insertar un archivo se va a la sección para leer el SVG, después de seleccionar el archivo puedes comenzar la edición de diferentes parámetros, por ejemplo invertir la zona que será cortada, el diámetro de la herramienta, la velocidad de la cortadora, así como el sistema de medición. Es importante tomar en cuenta que todo lo que esté de color negro en el archivo será la zona en la que se hará el corte.
+![MODSinvertir](recursos/archivos/MODSinvertir.png){ width="400" style="display: block; margin: 0 auto;" }
+
+Para insertar un archivo, dirígete a la sección encargada de leer el formato SVG. Una vez seleccionado, podrás ajustar diferentes parámetros más adelante.
+
+Es muy importante tener en cuenta que todo lo que aparezca de color negro en el archivo será la zona donde la máquina realizará el corte. Por lo tanto, si las pistas no se muestran correctamente como en la imagen de referencia, deberás invertir el documento. Del mismo modo, asegúrate de que, para perforaciones o contornos, únicamente aquello que desees que la máquina corte se encuentre en color negro.
 
 ![MODSherramienta](recursos/archivos/MODSherramienta.png){ width="250" style="display: block; margin: 0 auto;" }
 
-Se pueden cambiar las especificaciones de las herramientas directamente, si las preestablecidas no se adecuan a las dimensiones que serán utilizadas en el proceso de la fabricación de la pcb.
+En el siguiente paso, se debe seleccionar la herramienta adecuada según el tipo de corte y la fresa que se vaya a utilizar.
 
 ![MODScalcular](recursos/archivos/MODScalcular.png){ width="250" style="display: block; margin: 0 auto;" }
-
 
 Se puede cambiar el origen de la cortadora directamente en el mods, es necesario cambiarlo manualmente a un origen (0,0,0) ya que el mods automáticamente lo pone en (10,10,10). En la mayoría de los casos vas a querer un origen (0,0,0), a menos que vayas a hacer muchos cortes a la vez, como lo puede ser más de una pcb.
 
