@@ -78,6 +78,8 @@ IMPORTANTE:
 
 ![Exportar](recursos/archivos/Exportar.png){ width="800" style="display: block; margin: 0 auto;" }
 
+![DCR](recursos/archivos/DCR.png){ width="800" style="display: block; margin: 0 auto;" }
+
 ![Exportar1](recursos/archivos/Exportar1.png){ width="800" style="display: block; margin: 0 auto;" }
 
 Una vez colocados todos los componentes y finalizadas las diferentes capas del diseño, para exportar los documentos se debe localizar el menú Archivo en la parte superior izquierda, buscar Fabricación y luego seleccionar Gerbers. Al entrar a ese nuevo menú, se hacen varias modificaciones: primero, en el menú de arriba se cambia de "Gerbers" a "SVG"; luego, se seleccionan las capas que se utilizaron para trazar; después, se corre un DRC para verificar que no haya ningún error, y si todo es correcto, se le da clic en "Trazar" para generar los documentos en formato SVG listos para ser enviados a producción o corte.
