@@ -1,22 +1,22 @@
 ![KiCad](recursos/archivos/3374914.png){ width="250" style="display: block; margin: 0 auto;" }
 
-KiCad es un programa gratuito y de código abierto que se usa para diseñar componentes electrónicos, desde los esquemáticos hasta las placas de circuito impreso (PCB). Es una de las herramientas más usadas en el mundo de la electrónica, tanto por su facilidad de uso como por ser completamente gratuita. A continuación se muestra cómo utilizarla.
+KiCad es un programa gratuito y de código abierto que se usa para diseñar componentes electrónicos, desde los esquemáticos hasta las placas de circuito impreso (PCB). Es una de las herramientas más usadas en el mundo de la electrónica, tanto por su facilidad de uso como por ser completamente gratuita. A continuación, se detalla paso a paso cómo utilizarla.
 
 ## Introducción a KiCad
 
 ![KiCadStart](recursos/archivos/KiCadStart.png){ width="800" style="display: block; margin: 0 auto;" }
 
-La imagen anterior muestra la página principal de KiCad, la cual cuenta con 4 secciones importantes: Proyectos Recientes, Editor de Esquemáticos, Editor de Placas y Herramientas. Estas son las 4 secciones principales que se van a utilizar.
+Al iniciar el programa, se presenta la página principal, la cual está dividida en cuatro secciones fundamentales para el flujo de trabajo: Proyectos Recientes, Editor de Esquemáticos, Editor de Placas y Herramientas. Estas son las áreas esenciales que utilizaremos durante el desarrollo de cualquier diseño.
 
 ## Herramientas
 
 ![Herramientas1](recursos/archivos/Herramientas1.png){ width="350" style="display: block; margin: 0 auto;" }
 
-La sección de Herramientas nos permite, mediante el Administrador de Complementos y Contenido, añadir más opciones de componentes a nuestros diseños esquemáticos. Esto nos da acceso a un catálogo amplio y variado de recursos, útiles para nuestros proyectos.
+La sección de Herramientas nos permite ampliar las capacidades del software mediante el Administrador de Complementos y Contenido, dándonos acceso a un catálogo amplio y variado de recursos muy útiles para nuestros proyectos.
 
 ![Herramientas2](recursos/archivos/Herramientas2.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Esto lo vamos a lograr accediendo a la sección de Repositorios, luego a Bibliotecas, donde debemos buscar la biblioteca "KiCad FabLib". La instalamos entrando a ese repositorio, dando clic en donde diga "Instalar", y luego en "Aplicar Cambios Pendientes". Después solo debemos reiniciar la aplicación y los nuevos recursos ya se verán añadidos en la sección de esquemáticos.
+Para incorporar nuevas librerías, debemos acceder a la sección de Repositorios y luego a Bibliotecas, donde buscaremos específicamente la biblioteca "KiCad FabLib". Para instalarla, simplemente entramos a ese repositorio, hacemos clic en "Instalar" y posteriormente en "Aplicar Cambios Pendientes". Por último, es necesario reiniciar la aplicación para que los nuevos recursos aparezcan disponibles en la sección de esquemáticos.
 
 ## Editor de Esquemáticos
 
@@ -24,23 +24,23 @@ Esto lo vamos a lograr accediendo a la sección de Repositorios, luego a Bibliot
 
 ![Esquematicos1](recursos/archivos/Esquematicos1.png){ width="300" style="display: block; margin: 0 auto;" }
 
-Al entrar a la página de esquemáticos, nos encontraremos con la barra lateral a la izquierda, que nos permitirá cumplir con todas las funciones presentadas en la imagen.
+Al ingresar al editor de esquemáticos, dispondremos de una barra lateral en el costado izquierdo que concentra todas las funciones necesarias para estructurar nuestro circuito.
 
 ![Esquematicos2](recursos/archivos/Esquematicos2.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Lo recomendado dentro de nuestros proyectos es que, por nuestro poco conocimiento en soldadura y en componentes pequeños (que son los que normalmente se necesitan para las PCB), usemos un tamaño de 1206 en los componentes. Esto nos ayuda porque, dentro de los recursos ya instalados en el FabLib, podemos simplemente buscar "1206" y nos aparecerán los componentes de la biblioteca con ese tamaño.
+Dentro de nuestros proyectos se recomienda utilizar componentes de tamaño 1206. Al haber instalado previamente la librería FabLib, bastará con buscar "1206" para localizar fácilmente los componentes compatibles con este tamaño. Asimismo, es indispensable verificar que cada componente incorporado en el esquemático cuente con su respectiva huella (blueprint).
 
 ![Esquematicos3](recursos/archivos/Esquematicos3.png){ width="400" style="display: block; margin: 0 auto;" }
 
 ![Esquematicos4](recursos/archivos/Esquematicos4.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-Al final, debe quedar un resultado similar al presentado anteriormente, en donde todo esté conectado en el esquemático ideal, los componentes estén etiquetados, los pines de entrada y salida estén establecidos, y los voltajes y tierras definidos. Y cuando el resultado sea el deseado, se debe dar clic en el ícono de checklist en la barra superior para correr un ERC, el cual comprobará errores dentro del esquemático; de estos, los únicos esperados deberían ser que las tierras y voltajes no están conectados a nada. Teniendo esto en cuenta, y ya cuando esa parte esté terminada, se hace clic en el ícono de hasta la derecha para pasar del esquemático al editor de placas.
+Una vez finalizado el circuito, el resultado ideal debe mostrar todas las conexiones debidamente realizadas, los componentes etiquetados, los pines de entrada y salida definidos, así como las alimentaciones de voltaje y tierra claramente establecidas. Cuando el diseño esté listo, debemos hacer clic en el ícono de verificación (checklist) ubicado en la barra superior para ejecutar una prueba ERC (Electrical Rules Check), la cual detectará posibles errores en el esquemático. Los únicos avisos normales o esperados en esta prueba suelen ser aquellos que indican que las tierras y voltajes no están conectados a nada externamente. Una vez superado este paso, hacemos clic en el botón situado en el extremo derecho de la barra superior para pasar del esquemático al editor de placas.
 
 ## Editor de Placas
 
 ![PlacasInicio](recursos/archivos/PlacasInicio.png){ width="800" style="display: block; margin: 0 auto;" }
 
-La imagen anterior muestra cómo se ve la página principal del editor de placas. En esta página, al iniciar, todos los componentes van a estar juntos, y estos se pueden acomodar de la forma en que se desee que la placa se vea al final. Pero antes de empezar a conectar, se deben tomar en cuenta las tolerancias y la medida de las pistas.
+La página principal del editor de placas muestra inicialmente todos los componentes agrupados en un mismo punto, los cuales debemos acomodar de forma ordenada según la distribución física que deseemos para nuestra placa. No obstante, antes de realizar las conexiones, es fundamental configurar las tolerancias y las medidas de las pistas.
 
 ![PlacasConf](recursos/archivos/PlacasConf.png){ width="300" style="display: block; margin: 0 auto;" }
 
@@ -58,9 +58,9 @@ Lo primero importante de mencionar es la importancia de las capas. Por cada capa
 
 ![Placas1](recursos/archivos/Placas1.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Después, dentro de la capa de F.Cu, se hacen las pistas ya con las configuraciones previamente hechas. La ventaja de esta aplicación es que, al seleccionar un componente desde cualquiera de sus lados, se va a marcar el camino hacia los elementos con la misma conexión, mostrando cómo las pistas se deben conectar unas con otras.
+Dentro de la capa F.Cu, y utilizando las configuraciones de medidas previamente establecidas, procederemos a trazar las pistas. Una ventaja significativa de la herramienta es que al seleccionar un terminal de un componente, el sistema resalta automáticamente el trayecto hacia los demás elementos que comparten la misma conexión, guiándonos visualmente en el ruteo.
 
-Del lado izquierdo, se debe cambiar la configuración para que diga "mm" (milímetros), y del lado derecho va a haber un ícono para la selección de pistas.
+Para trabajar con precisión, debemos asegurarnos de que la unidad de medida en el panel izquierdo esté configurada en milímetros (mm), mientras que la herramienta de selección de pistas se localiza en el panel derecho.
 
 ![Contornos1](recursos/archivos/Contornos1.png){ width="800" style="display: block; margin: 0 auto;" }
 
@@ -76,4 +76,4 @@ IMPORTANTE:
 
 ![Exportar1](recursos/archivos/Exportar1.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Finalmente, cuando ya estén todos los componentes necesarios y todas las capas finalizadas, para exportar los documentos se debe localizar el menú de Archivo a la izquierda, y ahí buscar Fabricación y luego Gerbers. Al entrar a ese nuevo menú, se hacen varias modificaciones: primero, en el menú de arriba se cambia de "Gerbers" a "SVG"; luego, se seleccionan las capas que se utilizaron para trazar; después, se corre un DRC para verificar que no haya ningún error, y si no hay ninguno, se le da clic en "Trazar" para generar los documentos SVG que luego se van a mandar a cortar.
+Una vez colocados todos los componentes y finalizadas las diferentes capas del diseño, para exportar los documentos se debe localizar el menú Archivo en la parte superior izquierda, buscar Fabricación y luego seleccionar Gerbers. Al entrar a ese nuevo menú, se hacen varias modificaciones: primero, en el menú de arriba se cambia de "Gerbers" a "SVG"; luego, se seleccionan las capas que se utilizaron para trazar; después, se corre un DRC para verificar que no haya ningún error, y si todo es correcto, se le da clic en "Trazar" para generar los documentos en formato SVG listos para ser enviados a producción o corte.
