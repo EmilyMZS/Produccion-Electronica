@@ -36,6 +36,8 @@ Dentro de nuestros proyectos se recomienda utilizar componentes de tamaño 1206.
 
 Una vez finalizado el circuito, el resultado ideal debe mostrar todas las conexiones debidamente realizadas, los componentes etiquetados, los pines de entrada y salida definidos, así como las alimentaciones de voltaje y tierra claramente establecidas. 
 
+![ECR](recursos/archivos/ECR.png){ width="600" style="display: block; margin: 0 auto;" }
+
 Cuando el diseño esté listo, debemos hacer clic en el ícono de verificación (checklist) ubicado en la barra superior para ejecutar una prueba ERC (Electrical Rules Check), la cual detectará posibles errores en el esquemático. Los únicos avisos normales o esperados en esta prueba suelen ser los que indican que las tierras y voltajes no están conectados a nada externamente. Una vez finalizado, hacemos clic en el botón situado en el extremo derecho de la barra superior para pasar del esquemático al editor de placas.
 
 ## Editor de Placas
