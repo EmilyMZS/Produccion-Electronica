@@ -22,10 +22,14 @@ A continuación, en la parte superior se mostrará el tamaño de la fresa y de l
 
 ![MODSorigenes](recursos/archivos/MODSorigenes.png){ width="250" style="display: block; margin: 0 auto;" }
 
-Se puede cambiar el origen de la cortadora directamente en el mods, es necesario cambiarlo manualmente a un origen (0,0,0) ya que el mods automáticamente lo pone en (10,10,10). En la mayoría de los casos vas a querer un origen (0,0,0), a menos que vayas a hacer muchos cortes a la vez, como lo puede ser más de una pcb.
+La velocidad de trabajo de la cortadora es un parametro muy importante, asi no existe el riesgo de romper la punta por demasiada velocidad, especialmente en las perforaciones en la PCB.
 
-La velocidad de trabajo de la cortadora es un parametro muy importante, asi no existe el riesgo de romper la punta por demasiada velocidad, especialmente en las perforaciones en la pcb.
-Para contorno, pistas y etiquetas la velocidad recomendada es 4 mm/s.
-Para perforaciones la velocidad recomendada es de 0.2 a 0.4 mm/s.
+Para contorno, pistas y etiquetas (Fresas de 0.4 mm y 2 mm) la velocidad recomendada es 4 mm/s.
+
+Para perforaciones (Fresa de 0.8 mm) la velocidad recomendada es de 0.2 a 0.4 mm/s.
+
+Despues, puede cambiar el origen de la cortadora directamente en el mods, es necesario cambiarlo manualmente a un origen (0,0,0) ya que el mods automáticamente lo pone en (10,10,10). En la mayoría de los casos vas a querer un origen (0,0,0), a menos que vayas a hacer muchos cortes a la vez, como lo puede ser más de una pcb.
 
 ![MODSsvg](recursos/archivos/MODSsvg.png){ width="250" style="display: block; margin: 0 auto;" }
+
+Finalmente, una vez realizados todos estos cambios, se busca el recuadro correspondiente para exportar y guardar el documento en formato SVG.
