@@ -50,6 +50,7 @@ nav:
   - Introduccion: Introduccion.md
   - KiCad: KiCad.md
   - MODS: MODS.md
+  - MonoFab: MonoFab.md
 
 markdown_extensions:
   - pymdownx.highlight:
