@@ -1,6 +1,6 @@
-![MonoFab](recursos/archivos/MonoFab.png){ width="250" style="display: block; margin: 0 auto;" }
+![MonoFab](recursos/archivos/MonoFab.png){ width="800" style="display: block; margin: 0 auto;" }
 
-![Sacrificio](recursos/archivos/Sacrificio.jpg){ width="250" style="display: block; margin: 0 auto;" }
+![Sacrificio](recursos/archivos/Sacrificio.jpg){ width="600" style="display: block; margin: 0 auto;" }
 
 El VPanel es el software de control virtual para la máquina monoFab, funciona como el panel de mando en la computadora para poder operarla manualmente. Desde este programa se realizan los ajustes principales antes de mandar a cortar, como mover la herramienta sobre los ejes para establecer el punto de origen (0,0,0) y cargar los archivos de corte generados.
 
@@ -8,7 +8,7 @@ Para comenzar primero se configurará el origen en X y Y. Nos movemos con el pan
 
 Después se comienza a configurar el origen en Z. Al colocar este origen se debe tener cuidado: primero pondremos a girar el motor de la fresa con el botón que dice "ON" en la esquina inferior izquierda. Ya que esté girando, debemos bajar cuidadosamente la fresa hasta rozar la placa PCB; necesitamos rayar ligeramente la placa, no atravesarla (se puede comprobar visualmente cuando empieza a salir polvo). En cuanto la fresa esté rayando la PCB, paramos el spindle con el botón de "OFF", y fijamos el origen en Z pulsando el botón que dice "Z" en la parte derecha.
 
-![MonoFabExportar](recursos/archivos/MonoFabExportar.png){ width="250" style="display: block; margin: 0 auto;" }
+![MonoFabExportar](recursos/archivos/MonoFabExportar.png){ width="800" style="display: block; margin: 0 auto;" }
 
 Cuando el origen esté bien configurado, le damos a "CUT" en la esquina inferior derecha, se sube el archivo que vayamos a cortar y dejamos a la máquina trabajar.
 
