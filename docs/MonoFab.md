@@ -12,11 +12,11 @@ Para comenzar primero se configurará el origen en X y Y. Nos movemos con el pan
 
 Después se comienza a configurar el origen en Z. Al colocar este origen se debe tener cuidado: primero pondremos a girar el motor de la fresa con el botón que dice "ON" en la esquina inferior izquierda. Ya que esté girando, debemos bajar cuidadosamente la fresa hasta rozar la placa PCB; necesitamos rayar ligeramente la placa, no atravesarla (se puede comprobar visualmente cuando empieza a salir polvo). En cuanto la fresa esté rayando la PCB, paramos el spindle con el botón de "OFF", y fijamos el origen en Z pulsando el botón que dice "Z" en la parte derecha.
 
+
+![MonoFabCut](recursos/archivos/MonoFabCut.png){ width="800" style="display: block; margin: 0 auto;" }
 ![MonoFabExportar1](recursos/archivos/MonoFabExportar1.png){ width="800" style="display: block; margin: 0 auto;" }
 
 Cuando el origen esté bien configurado, le damos a "CUT" en la esquina inferior derecha, se sube el archivo que vayamos a cortar y dejamos a la máquina trabajar.
-
-![MonoFabCut](recursos/archivos/MonoFabCut.png){ width="800" style="display: block; margin: 0 auto;" }
 
 El orden de corte recomendado es:
 Perforaciones: con la fresa de 0.8 mm.
