@@ -8,14 +8,13 @@ Sin embargo, antes de mover la máquina, se debe preparar la placa de sacrificio
 
 ![MonoFabX](recursos/archivos/MonoFabX.png){ width="800" style="display: block; margin: 0 auto;" }
 
-A continuación, se procede a configurar el origen en Z. Este paso requiere precaución: primero, enciende el motor de la fresa haciendo clic en el botón "ON" ubicado en la esquina inferior izquierda. Con la fresa girando, bájala con cuidado hasta rozar la placa PCB. El objetivo es rayar ligeramente la superficie sin atravesarla (lo cual se comprueba visualmente cuando comienza a soltar polvo).
-
-Para evitar accidentes y no romper la herramienta, ajusta la velocidad de desplazamiento utilizando los selectores "Continuo, x100, x10, x1"; de este modo, los movimientos serán cada vez más lentos conforme te acerques a la base, reduciendo el riesgo de dañar la placa o la fresa. Tan pronto como la fresa empiece a marcar la PCB, apaga el spindle con el botón "OFF" y fija el origen en Z presionando el botón "Z" situado en el panel derecho.
+Para comenzar, se configura primero el origen en X e Y. Utiliza el panel de navegación de ejes hasta comprobar visualmente que la herramienta se encuentra cerca de la esquina inferior izquierda de la placa. Una vez en la posición deseada, haz clic en el botón de la derecha que indica "X/Y". Aparecerá una ventana de aviso para confirmar la asignación del nuevo origen en ese punto, el cual deberás aceptar.
 
 ![MonoFabZ](recursos/archivos/MonoFabY.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Después se comienza a configurar el origen en Z. Al colocar este origen se debe tener cuidado: primero pondremos a girar el motor de la fresa con el botón que dice "ON" en la esquina inferior izquierda. Ya que esté girando, debemos bajar cuidadosamente la fresa hasta rozar la placa PCB; necesitamos rayar ligeramente la placa, no atravesarla (se puede comprobar visualmente cuando empieza a salir polvo). Tambien hay que asegurarse que, para no romper la fresa, se deben cambiar las velocidades con los botones "Continuo, x100, x10, x1", esto para que cuanto mas nos vayamos acercando a la base, lo mas lento que son los movimientos para que no corramos riesgo de romper o la placa o nuestras herramientas. En cuanto la fresa esté rayando la PCB, paramos el spindle con el botón de "OFF", y fijamos el origen en Z pulsando el botón que dice "Z" en la parte derecha.
+A continuación, se procede a configurar el origen en Z. Este paso requiere precaución: primero, enciende el motor de la fresa haciendo clic en el botón "ON" ubicado en la esquina inferior izquierda. Con la fresa girando, bájala con cuidado hasta rozar la placa PCB. El objetivo es rayar ligeramente la superficie sin atravesarla (lo cual se comprueba visualmente cuando comienza a soltar polvo).
 
+Para evitar accidentes y no romper la herramienta, ajusta la velocidad de desplazamiento utilizando los selectores "Continuo, x100, x10, x1"; de este modo, los movimientos serán cada vez más lentos conforme te acerques a la base, reduciendo el riesgo de dañar la placa o la fresa. Tan pronto como la fresa empiece a marcar la PCB, apaga el spindle con el botón "OFF" y fija el origen en Z presionando el botón "Z" situado en el panel derecho.
 
 ![MonoFabCut](recursos/archivos/MonoFabCut.png){ width="800" style="display: block; margin: 0 auto;" }
 ![MonoFabExportar1](recursos/archivos/MonoFabExportar1.png){ width="800" style="display: block; margin: 0 auto;" }
