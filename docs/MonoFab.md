@@ -1,4 +1,4 @@
-![MonoFab](recursos/archivos/MonoFab.png){ width="800" style="display: block; margin: 0 auto;" }
+![MonoFabOG](recursos/archivos/MonoFabOG.png){ width="800" style="display: block; margin: 0 auto;" }
 
 ![Sacrificio](recursos/archivos/Sacrificio.jpg){ width="600" style="display: block; margin: 0 auto;" }
 
