@@ -1,6 +1,6 @@
-![MonoFabOG](recursos/archivos/MonoFabOG.png){ width="800" style="display: block; margin: 0 auto;" }
+![MonoFabOG](recursos/archivos/MonoFabOG.jpeg){ width="800" style="display: block; margin: 0 auto;" }
 
-![Sacrificio](recursos/archivos/Sacrificio.jpg){ width="600" style="display: block; margin: 0 auto;" }
+![Sacrificio](recursos/archivos/Sacrificio.jpg){ width="1000" style="display: block; margin: 0 auto;" }
 
 El VPanel es el software de control virtual para la máquina monoFab, funciona como el panel de mando en la computadora para poder operarla manualmente. Desde este programa se realizan los ajustes principales antes de mandar a cortar, como mover la herramienta sobre los ejes para establecer el punto de origen (0,0,0) y cargar los archivos de corte generados.
 
