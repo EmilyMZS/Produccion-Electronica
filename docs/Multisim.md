@@ -6,16 +6,20 @@ El software simulador de circuitos Multisim™ integra la simulación SPICE con 
 
 ![MultisimStart](recursos/archivos/MultisimInicio.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-Al iniciar Multisim, tenemos tres paneles principales, la pantalla principal, la taskbar horizontal en la parte superior, y la taskbar vertical a la derecha.
+Al iniciar Multisim, encontramos tres áreas principales: la pantalla de trabajo, la barra de herramientas horizontal en la parte superior y la barra de herramientas vertical a la derecha.
 
-## Herramientas
+## Herramientas Superiores
 
 ![Horizontal](recursos/archivos/MultisimTaskHorizontal.png){ width="800" style="display: block; margin: 0 auto;" }
 
-En la barra horizontal superior, encontramos diferentes funciones. En el recuadro azul se encuentran todos los componentes que se pueden insertar y conectar. En el recuadro rojo se configuran las difgerentes simulaciones que se pueden hacer dependiendo de los doferentes estudios que sean necesarios.
+En la barra horizontal superior se encuentran diversas funciones. En el recuadro azul están todos los componentes que se pueden insertar y conectar, mientras que en el recuadro rojo se configuran las distintas simulaciones disponibles, según los estudios que se requieran.
 
 ![Simulaciones](recursos/archivos/MultisimSimulaciones.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Despues estan las funciones normales de guardar y configurar, y en la parte superior se pueden encontrar funciones extras dependiendo de las necesidades del proyecto.
+Después están las funciones habituales de guardar y configurar y, en la parte superior, se pueden encontrar funciones adicionales según las necesidades del proyecto.
+
+## Herramientas Laterales
 
 ![Vertical1](recursos/archivos/LateralTodoMulti.png){ width="600" style="display: block; margin: 0 auto;" }
+
+En la barra lateral derecha se encuentran diversas herramientas para profundizar en el análisis, como osciloscopios, multímetros y otros instrumentos de medición.
