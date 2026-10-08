@@ -51,6 +51,7 @@ nav:
   - KiCad: KiCad.md
   - MODS: MODS.md
   - MonoFab: MonoFab.md
+  - Multisim: Multisim.md
 
 markdown_extensions:
   - pymdownx.highlight:
