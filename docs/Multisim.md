@@ -4,14 +4,12 @@ KiCad es un programa gratuito y de código abierto que se usa para diseñar comp
 
 ## Introducción a Multisim
 
-![MultisimStart](recursos/archivos/MultisimInicio.png){ width="800" style="display: block; margin: 0 auto;" }
+![MultisimStart](recursos/archivos/MultisimInicio.png){ width="1000" style="display: block; margin: 0 auto;" }
 
 ## Herramientas
 
-![Horizontal](recursos/archivos/MultisimTaskHorizontal.png){ width="350" style="display: block; margin: 0 auto;" }
+![Horizontal](recursos/archivos/MultisimTaskHorizontal.png){ width="800" style="display: block; margin: 0 auto;" }
 
 La sección de Herramientas nos permite ampliar las capacidades del software mediante el Administrador de Complementos y Contenido, dándonos acceso a un catálogo amplio y variado de recursos muy útiles para nuestros proyectos.
 
-![Vertical](recursos/archivos/MultisimTaskVertical.png){ width="800" style="display: block; margin: 0 auto;" }
-
-
+![Vertical](recursos/archivos/MultisimTaskVertical.png){ width="350" style="display: block; margin: 0 auto;" }
