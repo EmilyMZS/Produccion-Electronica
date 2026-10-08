@@ -23,3 +23,9 @@ Además de lo anterior, se encuentran las funciones habituales de guardar y conf
 ![Vertical1](recursos/archivos/LateralTodoMulti.png){ width="600" style="display: block; margin: 0 auto;" }
 
 La barra lateral reúne diversas herramientas que permiten profundizar en el análisis del circuito. Entre ellas se encuentran instrumentos virtuales como el osciloscopio y el multímetro, además de otros aparatos de medición y análisis. Gracias a ellos es posible observar con detalle el comportamiento de las señales, comprobar voltajes y corrientes, y validar que el circuito funcione como se espera antes de pasar a la etapa de construcción.
+
+## Componentes Personalizados
+
+Una de las fiunciones extras que tiene Multisim es que, si no esta el componente que uno busca, lo puede agregar.
+
+### 1. Component Wizard
