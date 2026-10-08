@@ -1,15 +1,21 @@
 ![Multisim](recursos/archivos/multisimlogo.png){ width="250" style="display: block; margin: 0 auto;" }
 
-KiCad es un programa gratuito y de código abierto que se usa para diseñar componentes electrónicos, desde los esquemáticos hasta las placas de circuito impreso (PCB). Es una de las herramientas más usadas en el mundo de la electrónica, tanto por su facilidad de uso como por ser completamente gratuita. A continuación, se detalla paso a paso cómo utilizarla.
+El software simulador de circuitos Multisim™ integra la simulación SPICE con un entorno esquemático interactivo para visualizar y analizar de forma instantánea el comportamiento de los circuitos electrónicos. Al agregar una potente simulación y análisis de circuitos al flujo de diseño, Multisim™ ayuda a los investigadores y diseñadores a reducir las iteraciones de tarjeta de circuito impreso prototipos (PCB) y ahorrar costos de desarrollo.
 
 ## Introducción a Multisim
 
 ![MultisimStart](recursos/archivos/MultisimInicio.png){ width="1000" style="display: block; margin: 0 auto;" }
 
+Al iniciar Multisim, tenemos tres paneles principales, la pantalla principal, la taskbar horizontal en la parte superior, y la taskbar vertical a la derecha.
+
 ## Herramientas
 
 ![Horizontal](recursos/archivos/MultisimTaskHorizontal.png){ width="800" style="display: block; margin: 0 auto;" }
 
-La sección de Herramientas nos permite ampliar las capacidades del software mediante el Administrador de Complementos y Contenido, dándonos acceso a un catálogo amplio y variado de recursos muy útiles para nuestros proyectos.
+En la barra horizontal superior, encontramos diferentes funciones. En el recuadro azul se encuentran todos los componentes que se pueden insertar y conectar. En el recuadro rojo se configuran las difgerentes simulaciones que se pueden hacer dependiendo de los doferentes estudios que sean necesarios.
+
+![Simulaciones](recursos/archivos/MultisimSimulaciones.png){ width="800" style="display: block; margin: 0 auto;" }
+
+Despues estan las funciones normales de guardar y configurar, y en la parte superior se pueden encontrar funciones extras dependiendo de las necesidades del proyecto.
 
 ![Vertical](recursos/archivos/MultisimTaskVertical.png){ width="350" style="display: block; margin: 0 auto;" }
