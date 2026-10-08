@@ -18,4 +18,4 @@ En la barra horizontal superior, encontramos diferentes funciones. En el recuadr
 
 Despues estan las funciones normales de guardar y configurar, y en la parte superior se pueden encontrar funciones extras dependiendo de las necesidades del proyecto.
 
-![Vertical1](recursos/archivos/LateralTodoMulti.png){ width="200" style="display: block; margin: 0 auto;" }
+![Vertical1](recursos/archivos/LateralTodoMulti.png){ width="600" style="display: block; margin: 0 auto;" }
