@@ -29,3 +29,11 @@ La barra lateral re√∫ne diversas herramientas que permiten profundizar en el an√
 Una de las fiunciones extras que tiene Multisim es que, si no esta el componente que uno busca, lo puede agregar.
 
 ### 1. Component Wizard
+![Personalizados1](recursos/archivos/Personalizados1.png){ width="600" style="display: block; margin: 0 auto;" }
+![Personalizados2](recursos/archivos/Personalizados2.png){ width="600" style="display: block; margin: 0 auto;" }
+![Personalizados3](recursos/archivos/Personalizados3.png){ width="600" style="display: block; margin: 0 auto;" }
+![Personalizados4](recursos/archivos/Personalizados4.png){ width="600" style="display: block; margin: 0 auto;" }
+![Personalizados5](recursos/archivos/Personalizados5.png){ width="600" style="display: block; margin: 0 auto;" }
+![Personalizados6](recursos/archivos/Personalizados6.png){ width="600" style="display: block; margin: 0 auto;" }
+![Personalizados7](recursos/archivos/Personalizados7.png){ width="600" style="display: block; margin: 0 auto;" }
+![Personalizados8](recursos/archivos/Personalizados8.png){ width="600" style="display: block; margin: 0 auto;" }
