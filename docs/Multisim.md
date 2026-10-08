@@ -18,4 +18,7 @@ En la barra horizontal superior, encontramos diferentes funciones. En el recuadr
 
 Despues estan las funciones normales de guardar y configurar, y en la parte superior se pueden encontrar funciones extras dependiendo de las necesidades del proyecto.
 
-![Vertical](recursos/archivos/MultisimTaskVertical.png){ width="350" style="display: block; margin: 0 auto;" }
+![Vertical1](recursos/archivos/Lateral1.png){ width="600" style="display: block; margin: 0 auto;" }
+![Vertical2](recursos/archivos/Lateral2.png){ width="600" style="display: block; margin: 0 auto;" }
+![Vertical3](recursos/archivos/Lateral3.png){ width="600" style="display: block; margin: 0 auto;" }
+![Vertical4](recursos/archivos/Lateral4.png){ width="600" style="display: block; margin: 0 auto;" }
