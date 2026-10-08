@@ -6,7 +6,7 @@ El software simulador de circuitos Multisim™ integra la simulación SPICE con 
 
 ![MultisimStart](recursos/archivos/MultisimInicio.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-![MultisimEjemplo](recursos/archivos/EjemploMulti.png){ width="1000" style="display: block; margin: 0 auto;" }
+![MultisimEjemplo](recursos/archivos/EjemploMulti.png){ width="600" style="display: block; margin: 0 auto;" }
 
 Al iniciar Multisim, la interfaz se divide en tres áreas principales: la pantalla de trabajo, donde se arma y se visualiza el circuito; la barra de herramientas horizontal, ubicada en la parte superior; y la barra de herramientas vertical, situada del lado derecho. Conocer la función de cada una de estas áreas es el primer paso para trabajar de forma ordenada y aprovechar mejor el programa.
 
