@@ -6,20 +6,20 @@ El software simulador de circuitos Multisim™ integra la simulación SPICE con 
 
 ![MultisimStart](recursos/archivos/MultisimInicio.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-Al iniciar Multisim, encontramos tres áreas principales: la pantalla de trabajo, la barra de herramientas horizontal en la parte superior y la barra de herramientas vertical a la derecha.
+Al iniciar Multisim, la interfaz se divide en tres áreas principales: la pantalla de trabajo, donde se arma y se visualiza el circuito; la barra de herramientas horizontal, ubicada en la parte superior; y la barra de herramientas vertical, situada del lado derecho. Conocer la función de cada una de estas áreas es el primer paso para trabajar de forma ordenada y aprovechar mejor el programa.
 
 ## Herramientas Superiores
 
 ![Horizontal](recursos/archivos/MultisimTaskHorizontal.png){ width="800" style="display: block; margin: 0 auto;" }
 
-En la barra horizontal superior se encuentran diversas funciones. En el recuadro azul están todos los componentes que se pueden insertar y conectar, mientras que en el recuadro rojo se configuran las distintas simulaciones disponibles, según los estudios que se requieran.
+La barra horizontal superior concentra diversas funciones esenciales para el desarrollo de un proyecto. En el recuadro azul se encuentran todos los componentes que pueden insertarse y conectarse en el circuito, como resistencias, capacitores, fuentes y otros elementos. Por su parte, en el recuadro rojo se configuran las distintas simulaciones disponibles, que se eligen según el tipo de estudio que se necesite realizar sobre el circuito.
 
 ![Simulaciones](recursos/archivos/MultisimSimulaciones.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Después están las funciones habituales de guardar y configurar y, en la parte superior, se pueden encontrar funciones adicionales según las necesidades del proyecto.
+Además de lo anterior, se encuentran las funciones habituales de guardar y configurar el proyecto. En la parte superior también se ubican opciones adicionales que pueden resultar útiles dependiendo de las necesidades específicas de cada diseño.
 
 ## Herramientas Laterales
 
 ![Vertical1](recursos/archivos/LateralTodoMulti.png){ width="600" style="display: block; margin: 0 auto;" }
 
-En la barra lateral derecha se encuentran diversas herramientas para profundizar en el análisis, como osciloscopios, multímetros y otros instrumentos de medición.
+La barra lateral reúne diversas herramientas que permiten profundizar en el análisis del circuito. Entre ellas se encuentran instrumentos virtuales como el osciloscopio y el multímetro, además de otros aparatos de medición y análisis. Gracias a ellos es posible observar con detalle el comportamiento de las señales, comprobar voltajes y corrientes, y validar que el circuito funcione como se espera antes de pasar a la etapa de construcción.
