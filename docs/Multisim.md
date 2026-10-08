@@ -28,12 +28,26 @@ La barra lateral re√∫ne diversas herramientas que permiten profundizar en el an√
 
 Una de las fiunciones extras que tiene Multisim es que, si no esta el componente que uno busca, lo puede agregar.
 
-### 1. Component Wizard
+### 1. Tools y Component Wizard
 ![Personalizados1](recursos/archivos/Personalizados1.png){ width="600" style="display: block; margin: 0 auto;" }
+
+### 2. Seleccion de Nombre y Tipo de Simulacion
 ![Personalizados2](recursos/archivos/Personalizados2.png){ width="600" style="display: block; margin: 0 auto;" }
+
+### 3. Tipo de Packaging y Numero de Pins
 ![Personalizados3](recursos/archivos/Personalizados3.png){ width="600" style="display: block; margin: 0 auto;" }
+
+### 4. Nombre de los Pins
 ![Personalizados4](recursos/archivos/Personalizados4.png){ width="600" style="display: block; margin: 0 auto;" }
+
+### 5. Visualizacion y Next
 ![Personalizados5](recursos/archivos/Personalizados5.png){ width="600" style="display: block; margin: 0 auto;" }
+
+### 6. Next
 ![Personalizados6](recursos/archivos/Personalizados6.png){ width="600" style="display: block; margin: 0 auto;" }
+
+### 7. Seleccion de Nombre por Pin
 ![Personalizados7](recursos/archivos/Personalizados7.png){ width="600" style="display: block; margin: 0 auto;" }
+
+### 8. Finalizacion e Insertar Componente
 ![Personalizados8](recursos/archivos/Personalizados8.png){ width="600" style="display: block; margin: 0 auto;" }
