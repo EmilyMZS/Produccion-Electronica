@@ -52,6 +52,7 @@ nav:
   - MODS: MODS.md
   - MonoFab: MonoFab.md
   - Multisim: Multisim.md
+  - Altium: Altium.md
 
 markdown_extensions:
   - pymdownx.highlight:
