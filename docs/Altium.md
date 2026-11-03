@@ -38,7 +38,7 @@ Antes de insertar cualquier componente, se debe revisar que dentro de las especi
 
 En caso de que alguno de los componentes no se encuentre en la parte de componentes, se puede ir a la configuración del panel, ubicada en la esquina inferior derecha, y añadir “Manufacturer Part Search”, la cual proporciona un catálogo más amplio de componentes que se encuentran o se requieren normalmente en los proyectos.
 
-## Herramientas
+### Herramientas
 
 ![Herramientas1](recursos/archivos/Herramientas1.png){ width="1000" style="display: block; margin: 0 auto;" }
 
