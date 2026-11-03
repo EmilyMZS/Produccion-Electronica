@@ -45,6 +45,7 @@ En caso de que alguno de los componentes no se encuentre en la parte de componen
 Las primeras herramientas con las que nos cruzamos son las flotantes sobre el esquemático, las cuales incluyen filtro, mover, seleccionar, alinear, insertar parte, insertar cable, poner Ground o VDD, entre otras. Es útil tenerlas a la mano porque son las que más se ocupan al construir el esquemático.
 
 ![Herramientas2](recursos/archivos/Herramientas2.png){ width="1000" style="display: block; margin: 0 auto;" }
+
 ![Herramientas2](recursos/archivos/Herramientas3.png){ width="600" style="display: block; margin: 0 auto;" }
 
 Posteriormente, arriba de esas están el resto de las herramientas, las cuales se pueden desbloquear al hacer clic derecho sobre la barra y seleccionar el paquete de herramientas necesario de acuerdo con el proyecto.
