@@ -12,6 +12,12 @@ Lo primero que se debe hacer cuando se inicia Altium es elegir una licencia, ya 
 
 Como se puede ver, cuando se inicia sesion, de debe seleccionar la licencia profesional, y debe aparecer en verde. Ya con eso, se puede trabajar en el programa.
 
+## Crear un nuevo proyecto
+
+![AltiumNew](recursos/archivos/AltiumNew.png){ width="800" style="display: block; margin: 0 auto;" }
+
+Para crear un nuevo documento, se va a la esquina superior izquierda, al menú File, y se seleccionan primero los esquemáticos.
+
 ## Herramientas
 
 ![Herramientas1](recursos/archivos/Herramientas1.png){ width="350" style="display: block; margin: 0 auto;" }
