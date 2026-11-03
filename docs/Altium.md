@@ -20,17 +20,17 @@ Para crear un nuevo documento, se va a la esquina superior izquierda, al menú F
 
 ## Esquematicos
 
-![Herramientas1](recursos/archivos/AltiumEsquematicos1.png){ width="350" style="display: block; margin: 0 auto;" }
+![Herramientas1](recursos/archivos/AltiumEsquematicos1.png){ width="800" style="display: block; margin: 0 auto;" }
 
 Cuando se entra por primera vez a los esquemáticos, se tienen tres menús principales. El recuadro azul representa el espacio para insertar o crear componentes, el cual está en la barra lateral derecha; luego están los recuadros verdes, que son las barras de herramientas que se pueden utilizar en el esquemático, las cuales están en la parte superior de la pantalla; y finalmente, el recuadro rojo muestra las configuraciones externas del documento.
 
 ### Insertar componentes
 
-![Herramientas2](recursos/archivos/AltiumEsquematicos2.png){ width="800" style="display: block; margin: 0 auto;" }
+![Herramientas2](recursos/archivos/AltiumEsquematicos2.png){ width="400" style="display: block; margin: 0 auto;" }
 
 En la barra lateral derecha, en la sección de componentes, se pueden insertar componentes al esquemático buscándolos por tipo, especificaciones o el nombre que se requiera.
 
-![Herramientas3](recursos/archivos/AltiumEsquematicos3.png){ width="800" style="display: block; margin: 0 auto;" }
+![Herramientas3](recursos/archivos/AltiumEsquematicos3.png){ width="600" style="display: block; margin: 0 auto;" }
 
 Antes de insertar cualquier componente, se debe revisar que dentro de las especificaciones venga un esquemático del componente y el footprint de este.
 
