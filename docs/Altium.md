@@ -1,14 +1,14 @@
-![Altium](recursos/archivos/altiumlogo.jpg){ width="250" style="display: block; margin: 0 auto;" }
+![Altium](recursos/archivos/altiumlogo.jpg){ width="300" style="display: block; margin: 0 auto;" }
 
 Altium Designer es la plataforma más conocida de la marca Altium, la cual se enfoca principalmente en el desarrollo de esquemáticos, diseño de PCB, visualización 3D y los archivos de fabricación, en caso de que se quiera mandar a fabricar con una compañía externa.
 
 ## Introducción a Altium
 
-![AltiumStart](recursos/archivos/AltiumInicio.png){ width="800" style="display: block; margin: 0 auto;" }
+![AltiumStart](recursos/archivos/AltiumInicio.png){ width="1000" style="display: block; margin: 0 auto;" }
 
 Lo primero que se debe hacer cuando se inicia Altium es elegir una licencia, ya que este programa no se puede usar sin una licencia. Por parte de la IBERO Puebla se proporciona esta licencia si se requiere, por lo cual se debe solicitar la licencia y, cuando se tenga, iniciar sesión en el workspace de la IBERO.
 
-![AltiumUser](recursos/archivos/AltiumUser.png){ width="800" style="display: block; margin: 0 auto;" }
+![AltiumUser](recursos/archivos/AltiumUser.png){ width="1200" style="display: block; margin: 0 auto;" }
 
 Como se puede ver, cuando se inicia sesion, de debe seleccionar la licencia profesional, y debe aparecer en verde. Ya con eso, se puede trabajar en el programa.
 
