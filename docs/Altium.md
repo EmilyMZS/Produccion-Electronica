@@ -1,4 +1,4 @@
-![Altium](recursos/archivos/3altiumlogo.jpg){ width="250" style="display: block; margin: 0 auto;" }
+![Altium](recursos/archivos/altiumlogo.jpg){ width="250" style="display: block; margin: 0 auto;" }
 
 Altium Designer es la plataforma más conocida de la marca Altium, la cual se enfoca principalmente en el desarrollo de esquemáticos, diseño de PCB, visualización 3D y los archivos de fabricación, en caso de que se quiera mandar a fabricar con una compañía externa.
 
