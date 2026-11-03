@@ -4,9 +4,13 @@ Altium Designer es la plataforma más conocida de la marca Altium, la cual se en
 
 ## Introducción a Altium
 
-![KiCadStart](recursos/archivos/KiCadStart.png){ width="800" style="display: block; margin: 0 auto;" }
+![AltiumStart](recursos/archivos/AltiumInicio.png){ width="800" style="display: block; margin: 0 auto;" }
 
-Al iniciar el programa, se presenta la página principal, la cual está dividida en cuatro secciones fundamentales para el flujo de trabajo: Proyectos Recientes, Editor de Esquemáticos, Editor de Placas y Herramientas. Estas son las áreas esenciales que utilizaremos durante el desarrollo de cualquier diseño.
+Lo primero que se debe hacer cuando se inicia Altium es elegir una licencia, ya que este programa no se puede usar sin una licencia. Por parte de la IBERO Puebla se proporciona esta licencia si se requiere, por lo cual se debe solicitar la licencia y, cuando se tenga, iniciar sesión en el workspace de la IBERO.
+
+![AltiumUser](recursos/archivos/AltiumUser.png){ width="800" style="display: block; margin: 0 auto;" }
+
+Como se puede ver, cuando se inicia sesion, de debe seleccionar la licencia profesional, y debe aparecer en verde. Ya con eso, se puede trabajar en el programa.
 
 ## Herramientas
 
