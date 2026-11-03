@@ -20,41 +20,34 @@ Para crear un nuevo documento, se va a la esquina superior izquierda, al menú F
 
 ## Esquematicos
 
-![Herramientas1](recursos/archivos/AltiumEsquematicos1.png){ width="800" style="display: block; margin: 0 auto;" }
+![Esquematicos1](recursos/archivos/AltiumEsquematicos1.png){ width="800" style="display: block; margin: 0 auto;" }
 
 Cuando se entra por primera vez a los esquemáticos, se tienen tres menús principales. El recuadro azul representa el espacio para insertar o crear componentes, el cual está en la barra lateral derecha; luego están los recuadros verdes, que son las barras de herramientas que se pueden utilizar en el esquemático, las cuales están en la parte superior de la pantalla; y finalmente, el recuadro rojo muestra las configuraciones externas del documento.
 
 ### Insertar componentes
 
-![Herramientas2](recursos/archivos/AltiumEsquematicos2.png){ width="400" style="display: block; margin: 0 auto;" }
+![Esquematicos2](recursos/archivos/AltiumEsquematicos2.png){ width="400" style="display: block; margin: 0 auto;" }
 
 En la barra lateral derecha, en la sección de componentes, se pueden insertar componentes al esquemático buscándolos por tipo, especificaciones o el nombre que se requiera.
 
-![Herramientas3](recursos/archivos/AltiumEsquematicos3.png){ width="600" style="display: block; margin: 0 auto;" }
+![Esquematicos3](recursos/archivos/AltiumEsquematicos3.png){ width="600" style="display: block; margin: 0 auto;" }
 
 Antes de insertar cualquier componente, se debe revisar que dentro de las especificaciones venga un esquemático del componente y el footprint de este.
 
-## Editor de Esquemáticos
+![Esquematicos4](recursos/archivos/AltiumEsquematicos4.png){ width="600" style="display: block; margin: 0 auto;" }
 
-![EsquematicosInicio](recursos/archivos/EsquematicosInicio.png){ width="800" style="display: block; margin: 0 auto;" }
+En caso de que alguno de los componentes no se encuentre en la parte de componentes, se puede ir a la configuración del panel, ubicada en la esquina inferior derecha, y añadir “Manufacturer Part Search”, la cual proporciona un catálogo más amplio de componentes que se encuentran o se requieren normalmente en los proyectos.
 
-![Esquematicos1](recursos/archivos/Esquematicos1.png){ width="300" style="display: block; margin: 0 auto;" }
+## Herramientas
 
-Al ingresar al editor de esquemáticos, dispondremos de una barra lateral en el costado derecho que concentra todas las funciones necesarias para estructurar nuestro circuito.
+![Herramientas1](recursos/archivos/Herramientas1.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-![Esquematicos2](recursos/archivos/Esquematicos2.png){ width="800" style="display: block; margin: 0 auto;" }
+Las primeras herramientas con las que nos cruzamos son las flotantes sobre el esquemático, las cuales incluyen filtro, mover, seleccionar, alinear, insertar parte, insertar cable, poner Ground o VDD, entre otras. Es útil tenerlas a la mano porque son las que más se ocupan al construir el esquemático.
 
-Dentro de la seccion para añadir componentes, nuestros proyectos se recomienda utilizar componentes de tamaño 1206. Al haber instalado previamente la librería FabLib, bastará con buscar "1206" para localizar fácilmente los componentes compatibles con este tamaño. Asimismo, se debe verificar que cada componente incorporado en el esquemático cuente con su respectiva huella (blueprint).
+![Herramientas2](recursos/archivos/Herramientas2.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Herramientas2](recursos/archivos/Herramientas3.png){ width="600" style="display: block; margin: 0 auto;" }
 
-![Esquematicos3](recursos/archivos/Esquematicos3.png){ width="400" style="display: block; margin: 0 auto;" }
-
-Una vez finalizado el circuito, el resultado ideal debe mostrar todas las conexiones debidamente realizadas, los componentes etiquetados, los pines de entrada y salida definidos, así como las alimentaciones de voltaje y tierra claramente establecidas. 
-
-![ECR](recursos/archivos/ECR.png){ width="600" style="display: block; margin: 0 auto;" }
-
-![Esquematicos4](recursos/archivos/Esquematicos4.png){ width="1000" style="display: block; margin: 0 auto;" }
-
-Cuando el diseño esté listo, debemos hacer clic en el ícono de verificación (checklist) ubicado en la barra superior para ejecutar una prueba ERC (Electrical Rules Check), la cual detectará posibles errores en el esquemático. Los únicos avisos normales o esperados en esta prueba suelen ser los que indican que las tierras y voltajes no están conectados a nada externamente. Una vez finalizado, hacemos clic en el botón situado en el extremo derecho de la barra superior para pasar del esquemático al editor de placas.
+Posteriormente, arriba de esas están el resto de las herramientas, las cuales se pueden desbloquear al hacer clic derecho sobre la barra y seleccionar el paquete de herramientas necesario de acuerdo con el proyecto.
 
 ## Editor de Placas
 
