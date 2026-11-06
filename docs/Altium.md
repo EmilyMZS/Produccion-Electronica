@@ -50,47 +50,17 @@ Las primeras herramientas con las que nos cruzamos son las flotantes sobre el es
 
 Posteriormente, arriba de esas están el resto de las herramientas, las cuales se pueden desbloquear al hacer clic derecho sobre la barra y seleccionar el paquete de herramientas necesario de acuerdo con el proyecto.
 
-## Editor de Placas
+![ConexionesEsquematico](recursos/archivos/PonerConecciones.png){ width="800" style="display: block; margin: 0 auto;" }
 
-![PlacasInicio](recursos/archivos/PlacasInicio.png){ width="800" style="display: block; margin: 0 auto;" }
+Una vez que todos los componentes están conectados, este programa no requiere simular errores: se puede crear directamente un documento de PCB y transferir a él los componentes del esquemático.
 
-La página principal del editor de placas muestra inicialmente todos los componentes agrupados en un mismo punto, los cuales debemos acomodar de forma ordenada según como queremos que quede nuestra placa. Sin embargo, antes de realizar las conexiones, es fundamental configurar las tolerancias y las medidas de las pistas.
+### Pasar Esquemático a PCB
 
-![PlacasConf](recursos/archivos/PlacasConf.png){ width="300" style="display: block; margin: 0 auto;" }
+![ConexionesEsquematico](recursos/archivos/PasarPCB.png){ width="800" style="display: block; margin: 0 auto;" }
+![ConexionesEsquematico](recursos/archivos/SaveAs.png){ width="800" style="display: block; margin: 0 auto;" }
 
-![PlacasConf1](recursos/archivos/PlacasConf1.png){ width="500" style="display: block; margin: 0 auto;" }
+Primero se debe crear un documento PCB y guardarlo. Es importante señalar que el esquemático no puede transferirse al documento PCB hasta que ambos documentos se hayan guardado en la misma carpeta.
 
-![PlacasConf2](recursos/archivos/PlacasConf2.png){ width="800" style="display: block; margin: 0 auto;" }
+![ConexionesEsquematico](recursos/archivos/PasoFinalPCB.png){ width="800" style="display: block; margin: 0 auto;" }
 
-En la esquina superior izquierda, se va a ver un menú que va a decir "Pista: usar el ancho de clase de red". Al abrir ese menú, se puede desplegar para modificar las configuraciones que la placa debe tener, las cuales son: mínimo 0.4 mm de pista, 0.4 mm mínimo de margen, y 0.8 mm mínimo de taladro. Estos son los únicos valores que se deben modificar en los menús de configuración.
-
-![Capas1](recursos/archivos/Capas1.png){ width="300" style="display: block; margin: 0 auto;" }
-
-![Capas2](recursos/archivos/Capas2.png){ width="300" style="display: block; margin: 0 auto;" }
-
-Es crucial mencionar la importancia de las capas. Por cada capa, se deben hacer distintas cosas: en la capa de Edge Cuts deberían ir los contornos, en F.Cu las pistas, etc. Esto es así para que, cuando se deba mandar a cortar la placa, se haga distinción entre los diferentes tipos de corte.
-
-![Placas1](recursos/archivos/Placas1.png){ width="800" style="display: block; margin: 0 auto;" }
-
-Dentro de la capa F.Cu, y utilizando las configuraciones de medidas previamente establecidas, ya podemos trazar las pistas. Una ventaja significativa de la herramienta de pistas es que al seleccionar un componente, el sistema resalta automáticamente el trayecto hacia los demás elementos que comparten la misma conexión, guiándonos visualmente en el ruteo.
-
-Para trabajar con precisión, debemos asegurarnos de que la unidad de medida en el panel izquierdo esté configurada en milímetros (mm) en el panel izquierdo.
-
-![Contornos1](recursos/archivos/Contornos1.png){ width="800" style="display: block; margin: 0 auto;" }
-
-En Edge Cuts se le da la forma que se desee a la placa; en User 1 se colocan las etiquetas de los componentes, y en User 2 se ponen los agujeros necesarios para entradas y salidas. Las demás capas User también se pueden utilizar para algún otro agujero o cualquier otra cosa que se requiera.
-
-IMPORTANTE:
-
-- Contornos: 2 mm
-- Pistas: 0.4 - 0.6 mm
-- Etiquetas: 0.4 - 0.6 mm
-
-![Exportar](recursos/archivos/Exportar.png){ width="800" style="display: block; margin: 0 auto;" }
-
-![DCR](recursos/archivos/DCR.png){ width="800" style="display: block; margin: 0 auto;" }
-
-![Exportar1](recursos/archivos/Exportar1.png){ width="800" style="display: block; margin: 0 auto;" }
-
-Una vez colocados todos los componentes y finalizadas las diferentes capas del diseño, para exportar los documentos se debe localizar el menú Archivo en la parte superior izquierda, buscar Fabricación y luego seleccionar Gerbers. Al entrar a ese nuevo menú, se hacen varias modificaciones: primero, en el menú de arriba se cambia de "Gerbers" a "SVG"; luego, se seleccionan las capas que se utilizaron para trazar; después, se corre un DRC para verificar que no haya ningún error, y si todo es correcto, se le da clic en "Trazar" para generar los documentos en formato SVG listos para ser enviados a producción o corte.
-
+Finalmente, se aceptan los cambios configurados, se ejecutan y, a continuación, se abre el documento PCB con los componentes deseados.
