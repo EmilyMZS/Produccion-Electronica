@@ -65,3 +65,24 @@ Primero se debe crear un documento PCB y guardarlo. Es importante señalar que e
 ![PasoFinalPCB](recursos/archivos/PasoFinalPCB.png){ width="800" style="display: block; margin: 0 auto;" }
 
 Finalmente, se aceptan los cambios configurados, se ejecutan y, a continuación, se abre el documento PCB con los componentes deseados.
+
+## PCB
+
+![PasoFinalPCB](recursos/archivos/InicioPCB.png){ width="800" style="display: block; margin: 0 auto;" }
+
+En la pantalla principal se pueden ver los diferentes modos y herramientas, junto con los componentes trasladados, que aparecen en la esquina inferior derecha.
+
+### Rules
+
+![Rules](recursos/archivos/RulesPCB.png){ width="800" style="display: block; margin: 0 auto;" }
+
+Antes de conectar las pistas, se deben configurar las reglas de las pistas y las generales del documento. Para ello, hay que ir al menú superior, abrir la opción Design y localizar la sección Rules.
+
+![Rules1](recursos/archivos/ManualPCB.png){ width="800" style="display: block; margin: 0 auto;" }
+![Rules2](recursos/archivos/ImportPCB.png){ width="800" style="display: block; margin: 0 auto;" }
+
+Una vez dentro de la sección, se pueden modificar manualmente los anchos de las pistas o importar las reglas de fabricación de la empresa que fabricará la placa. Para acceder a esta opción de importación, se hace clic derecho sobre la sección “All Rules”.
+
+### Conexiones
+
+![Conexiones](recursos/archivos/ConexionesPCB.png){ width="800" style="display: block; margin: 0 auto;" }
