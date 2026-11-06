@@ -57,7 +57,8 @@ Una vez que todos los componentes están conectados, este programa no requiere s
 ### Pasar Esquemático a PCB
 
 ![PasarPCB](recursos/archivos/PasarPCB.png){ width="800" style="display: block; margin: 0 auto;" }
-![SaveAs](recursos/archivos/SaveAs.png){ width="800" style="display: block; margin: 0 auto;" }
+
+![SaveAs](recursos/archivos/SaveAs.png){ width="600" style="display: block; margin: 0 auto;" }
 
 Primero se debe crear un documento PCB y guardarlo. Es importante señalar que el esquemático no puede transferirse al documento PCB hasta que ambos documentos se hayan guardado en la misma carpeta.
 
