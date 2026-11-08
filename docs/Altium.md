@@ -69,8 +69,9 @@ Finalmente, se aceptan los cambios configurados, se ejecutan y, a continuación,
 ## PCB
 
 ![PasoFinalPCB](recursos/archivos/InicioPCB.png){ width="800" style="display: block; margin: 0 auto;" }
+![Herramientas](recursos/archivos/HerramientasPCB.png){ width="800" style="display: block; margin: 0 auto;" }
 
-En la pantalla principal se pueden ver los diferentes modos y herramientas, junto con los componentes trasladados, que aparecen en la esquina inferior derecha.
+En la pantalla principal se pueden ver los diferentes modos y herramientas, junto con los componentes trasladados, que aparecen en la esquina inferior derecha. Al igual que en el esquemático, el menú de herramientas se abre haciendo clic derecho sobre la barra superior.
 
 ### Rules
 
@@ -83,6 +84,22 @@ Antes de conectar las pistas, se deben configurar las reglas de las pistas y las
 
 Una vez dentro de la sección, se pueden modificar manualmente los anchos de las pistas o importar las reglas de fabricación de la empresa que fabricará la placa. Para acceder a esta opción de importación, se hace clic derecho sobre la sección “All Rules”.
 
-### Conexiones
+### Routing
 
 ![Conexiones](recursos/archivos/ConexionesPCB.png){ width="800" style="display: block; margin: 0 auto;" }
+![Conexiones1](recursos/archivos/RouteoAutomatico.png){ width="800" style="display: block; margin: 0 auto;" }
+
+Para generar las conexiones entre componentes, se utiliza la herramienta de enrutamiento (Routing), que se puede seleccionar desde la barra de herramientas de la pantalla principal y permite trazar las pistas manualmente. También es posible conectarlas de forma automática: en el menú “Route”, se selecciona la opción de enrutamiento automático (Auto Route).
+
+### Layers
+
+![Capas](recursos/archivos/LayersPCB.png){ width="1000" style="display: block; margin: 0 auto;" }
+
+Tanto Altium como KiCad permiten cambiar entre capas, lo cual resulta muy útil porque se trabaja principalmente con cuatro: Top Layer y Bottom Layer, donde se colocan los componentes; Mechanical 1, donde se define el contorno de la PCB; y Top Overlay, donde se agregan las etiquetas.
+
+### Bordes
+
+![Capas](recursos/archivos/DefinirBordes.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Capas](recursos/archivos/PCBVista.png){ width="1000" style="display: block; margin: 0 auto;" }
+
+Cuando ya todo esta conectado, se pueden genarar los contornos. Para esto, se debe de mover a la capa de Mechanical, y contornear con la herramienta de 
