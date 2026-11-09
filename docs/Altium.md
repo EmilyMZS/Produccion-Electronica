@@ -113,4 +113,6 @@ Luego, para generar el plano de tierra, se repite el procedimiento anterior, vol
 ![CapasTierra6](recursos/archivos/CapadeTierra6.png){ width="1000" style="display: block; margin: 0 auto;" }
 ![Etiquetas](recursos/archivos/Etiquetas.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-Además, en la capa Top Overlay se pueden agregar etiquetas a cada componente.
+Una vez configurada la capa, es normal que se vean cruces u otras formas en la pantalla. Además, en la capa Top Overlay se pueden agregar etiquetas a cada componente.
+
+### Exportar
