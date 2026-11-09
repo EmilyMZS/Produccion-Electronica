@@ -102,15 +102,15 @@ Tanto Altium como KiCad permiten cambiar entre capas, lo cual resulta muy útil 
 
 Cuando ya todo esta conectado, se pueden genarar los contornos. Para esto, se debe de mover a la capa de Mechanical, y contornear con la herramienta de Lines o Poligonos
 
-![CapasTierra1](recursos/archivos/CapaTierra1.png){ width="1000" style="display: block; margin: 0 auto;" }
-![CapasTierra2](recursos/archivos/CapaTierra2.png){ width="1000" style="display: block; margin: 0 auto;" }
-![CapasTierra3](recursos/archivos/CapaTierra3.png){ width="1000" style="display: block; margin: 0 auto;" }
-![CapasTierra4](recursos/archivos/CapaTierra4.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra1](recursos/archivos/CapadeTierra1.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra2](recursos/archivos/CapadeTierra2.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra3](recursos/archivos/CapadeTierra3.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra4](recursos/archivos/CapadeTierra4.png){ width="1000" style="display: block; margin: 0 auto;" }
 
 Luego, para generar el plano de tierra, se repite el procedimiento anterior, volviendo a la capa Top Layer o Bottom Layer, según se necesite. Se selecciona la herramienta de polígono y se traza el contorno de la zona; después, se hace doble clic sobre el polígono para abrir sus propiedades y, en el panel derecho, se cambia el campo Net a la red necesaria, que en la mayoría de los casos es GND.
 
-![CapasTierra5](recursos/archivos/CapaTierra5.png){ width="1000" style="display: block; margin: 0 auto;" }
-![CapasTierra6](recursos/archivos/CapaTierra6.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra5](recursos/archivos/CapadeTierra5.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra6](recursos/archivos/CapadeTierra6.png){ width="1000" style="display: block; margin: 0 auto;" }
 ![Etiquetas](recursos/archivos/Etiquetas.png){ width="1000" style="display: block; margin: 0 auto;" }
 
 Además, en la capa Top Overlay se pueden agregar etiquetas a cada componente.
