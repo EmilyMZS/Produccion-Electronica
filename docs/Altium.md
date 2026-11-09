@@ -91,15 +91,26 @@ Una vez dentro de la sección, se pueden modificar manualmente los anchos de las
 
 Para generar las conexiones entre componentes, se utiliza la herramienta de enrutamiento (Routing), que se puede seleccionar desde la barra de herramientas de la pantalla principal y permite trazar las pistas manualmente. También es posible conectarlas de forma automática: en el menú “Route”, se selecciona la opción de enrutamiento automático (Auto Route).
 
-### Layers
+### Layers, Bordes, y Capa de Tierra
 
 ![Capas](recursos/archivos/LayersPCB.png){ width="1000" style="display: block; margin: 0 auto;" }
 
 Tanto Altium como KiCad permiten cambiar entre capas, lo cual resulta muy útil porque se trabaja principalmente con cuatro: Top Layer y Bottom Layer, donde se colocan los componentes; Mechanical 1, donde se define el contorno de la PCB; y Top Overlay, donde se agregan las etiquetas.
 
-### Bordes
-
 ![Capas](recursos/archivos/DefinirBordes.png){ width="1000" style="display: block; margin: 0 auto;" }
 ![Capas](recursos/archivos/PCBVista.png){ width="1000" style="display: block; margin: 0 auto;" }
 
-Cuando ya todo esta conectado, se pueden genarar los contornos. Para esto, se debe de mover a la capa de Mechanical, y contornear con la herramienta de 
+Cuando ya todo esta conectado, se pueden genarar los contornos. Para esto, se debe de mover a la capa de Mechanical, y contornear con la herramienta de Lines o Poligonos
+
+![CapasTierra1](recursos/archivos/CapaTierra1.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra2](recursos/archivos/CapaTierra2.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra3](recursos/archivos/CapaTierra3.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra4](recursos/archivos/CapaTierra4.png){ width="1000" style="display: block; margin: 0 auto;" }
+
+Luego, para generar el plano de tierra, se repite el procedimiento anterior, volviendo a la capa Top Layer o Bottom Layer, según se necesite. Se selecciona la herramienta de polígono y se traza el contorno de la zona; después, se hace doble clic sobre el polígono para abrir sus propiedades y, en el panel derecho, se cambia el campo Net a la red necesaria, que en la mayoría de los casos es GND.
+
+![CapasTierra5](recursos/archivos/CapaTierra5.png){ width="1000" style="display: block; margin: 0 auto;" }
+![CapasTierra6](recursos/archivos/CapaTierra6.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Etiquetas](recursos/archivos/Etiquetas.png){ width="1000" style="display: block; margin: 0 auto;" }
+
+Además, en la capa Top Overlay se pueden agregar etiquetas a cada componente.
