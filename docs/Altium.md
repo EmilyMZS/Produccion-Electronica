@@ -97,7 +97,7 @@ Para generar las conexiones entre componentes, se utiliza la herramienta de enru
 
 Tanto Altium como KiCad permiten cambiar entre capas, lo cual resulta muy útil porque se trabaja principalmente con cuatro: Top Layer y Bottom Layer, donde se colocan los componentes; Mechanical 1, donde se define el contorno de la PCB; y Top Overlay, donde se agregan las etiquetas.
 
-![Capas](recursos/archivos/DefinirBordes.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Capas](recursos/archivos/DefinirBorde.png){ width="1000" style="display: block; margin: 0 auto;" }
 ![Capas](recursos/archivos/PCBVista.png){ width="1000" style="display: block; margin: 0 auto;" }
 
 Cuando ya todo esta conectado, se pueden genarar los contornos. Para esto, se debe de mover a la capa de Mechanical, y contornear con la herramienta de Lines o Poligonos
