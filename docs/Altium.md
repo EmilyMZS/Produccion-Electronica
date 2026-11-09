@@ -116,3 +116,19 @@ Luego, para generar el plano de tierra, se repite el procedimiento anterior, vol
 Una vez configurada la capa, es normal que se vean cruces u otras formas en la pantalla. Además, en la capa Top Overlay se pueden agregar etiquetas a cada componente.
 
 ### Exportar
+
+![Gerbers](recursos/archivos/Gerbers.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Gerbers](recursos/archivos/generate.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Gerbers](recursos/archivos/Selectusedaccept.png){ width="1000" style="display: block; margin: 0 auto;" }
+
+Para exportar los archivos, se va al menú File, se elige “Fabrication Outputs” y, después, “Gerber Files”. A continuación, en la opción Generate se acepta y, finalmente, se despliega una ventana con las opciones para seleccionar las capas utilizadas y confirmar con OK.
+
+![Gerbers](recursos/archivos/CarpetaOutputs.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Gerbers](recursos/archivos/Documentos.png){ width="1000" style="display: block; margin: 0 auto;" }
+
+Todos los archivos se guardan en una carpeta llamada Outputs.
+
+![Gerbers](recursos/archivos/Drills.png){ width="1000" style="display: block; margin: 0 auto;" }
+![Gerbers](recursos/archivos/NuevoDocumentoDrills.png){ width="1000" style="display: block; margin: 0 auto;" }
+
+También es necesario generar los archivos de taladrado (drills). Para ello, se vuelve al menú File, se elige “Fabrication Outputs” y, después, la opción de archivos de taladro (NC Drill Files). Estos archivos se guardan en la misma carpeta.
